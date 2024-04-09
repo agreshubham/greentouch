@@ -1,0 +1,5 @@
+LOAD DATA LOCAL INFILE "C:\Users\admin\Downloads\used_bikes.csv"
+INTO TABLE new_table
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;
